@@ -2,7 +2,7 @@
   "name": "h-jsutils",
   "version": "1.0.0",
   "description": "javascript utils",
-  "main": "index.js",
+  "main": "min/h-jsutils.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "utils"
   ],
   "author": "Haven",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Haven09/JSUtils/issues"
   },

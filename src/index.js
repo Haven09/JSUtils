@@ -7,7 +7,7 @@
  * Modified By:
  * -----
  */
-const formatCurrentTime = require('./formatCurrentTime');
+const formatCurrentTime = require('./formatCurrentTime')
 
 module.exports = {
   formatCurrentTime

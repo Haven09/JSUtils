@@ -8,10 +8,10 @@
  * -----
  */
 function formatCurrentTime(time) {
-  if (!value) {
+  if (!time) {
     return '';
   }
-  var t = new Date(value),
+  var t = new Date(time),
     y = t.getFullYear(),
     M = t.getMonth() + 1,
     d = t.getDate(),
