@@ -10,5 +10,5 @@
 const formatCurrentTime = require('./formatCurrentTime')
 
 module.exports = {
-  formatCurrentTime
+      formatCurrentTime
 }

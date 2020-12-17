@@ -9,7 +9,7 @@
  */
 function formatCurrentTime(time) {
   if (!time) {
-    return '';
+    return "";
   }
   var t = new Date(time),
     y = t.getFullYear(),
@@ -20,15 +20,15 @@ function formatCurrentTime(time) {
     s = t.getSeconds();
 
   function format(val) {
-    return val < 10 ? '0' + val : val + ''
+    return val < 10 ? "0" + val : val + "";
   }
-  M = format(M)
-  d = format(d)
-  h = format(h)
-  m = format(m)
-  s = format(s)
+  M = format(M);
+  d = format(d);
+  h = format(h);
+  m = format(m);
+  s = format(s);
 
-  return `${y}-${M}-${d} ${h}:${m}:${s}`
+  return `${y}-${M}-${d} ${h}:${m}:${s}`;
 }
 
-module.exports = formatCurrentTime
+module.exports = formatCurrentTime;

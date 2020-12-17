@@ -1,6 +1,6 @@
 {
-  "name": "h-jsutils",
-  "version": "1.0.0",
+  "name": "@zcah/jsutils",
+  "version": "1.0.3",
   "description": "javascript utils",
   "main": "min/h-jsutils.min.js",
   "scripts": {
